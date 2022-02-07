@@ -1,8 +1,8 @@
 Starting program: /home/runner/ppa-IA2-practice2-1/a.out 
 warning: Error disabling address space randomization: Operation not permitted
-enter the length of base of triangle
-2
-enter the length of height of triangle
+ enter the base of triangle
 4
-area of triangle is: 4.00
-[Inferior 1 (process 216) exited normally]
+ enter the height  of triangle
+2
+ given base 4.000000 and height 2.000000 now the area of triangle is 4.000000
+[Inferior 1 (process 201) exited normally]
