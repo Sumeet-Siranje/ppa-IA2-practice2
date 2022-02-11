@@ -1,1 +1,7 @@
-
+Starting program: /home/runner/ppa-IA2-practice2-3/a.out 
+warning: Error disabling address space randomization: Operation not permitted
+Enter sides of triangle:2
+Enter sides of triangle:2
+Enter sides of triangle:2
+the given triangle is equilateral
+[Inferior 1 (process 449) exited normally]
