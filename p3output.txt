@@ -1,1 +1,18 @@
 
+ gcc -g p3original.c
+ ./a.out
+enter the number
+7
+7 is prime
+ ./a.out
+enter the number
+8
+8 is composite
+ ./a.out
+enter the number
+4
+4 is prime
+ ./a.out
+enter the number
+5
+5 is prime
