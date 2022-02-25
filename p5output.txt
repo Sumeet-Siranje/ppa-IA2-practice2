@@ -1,1 +1,7 @@
-
+Starting program: /home/runner/ppa-IA2-practice2-17/a.out 
+warning: Error disabling address space randomization: Operation not permitted
+enter the number
+4
+enter the number
+4
+4 is GCD of 4 and 4
