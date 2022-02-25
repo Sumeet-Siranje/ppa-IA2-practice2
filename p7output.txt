@@ -1,1 +1,6 @@
-
+Starting program: /home/runner/ppa-IA2-practice2-17/a.out 
+warning: Error disabling address space randomization: Operation not permitted
+enter the base and altitude of triangle you want to find area of
+2
+3
+3.0 is Area of given triangle with base=2.0 and altitude=3.0[Inferior 1 (process 3363) exited normally]
