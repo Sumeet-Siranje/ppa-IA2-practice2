@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int input_array_size(){
   int n;
   printf("enter the size of array\n");
@@ -35,7 +36,7 @@ void output(int sum_composite){
 }
 int main(){
   int n,i,a[i],sum;
-  n=input_array_size()
+  n=input_array_size();
   input_array(n,a);
   sum = sum_composite(n,a);
   output(sum);

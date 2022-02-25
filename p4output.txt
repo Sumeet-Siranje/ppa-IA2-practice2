@@ -1,1 +1,14 @@
-
+Starting program: /home/runner/ppa-IA2-practice2-17/a.out 
+warning: Error disabling address space randomization: Operation not permitted
+enter the size of array
+4
+enter the number
+3
+enter the number
+4
+enter the number
+4
+enter the number
+4
+sum of composite no is 12
+[Inferior 1 (process 176) exited normally]
