@@ -6,23 +6,13 @@ int input(){
   return n;
 }
 int gcd(int a,int b){
-  int i,x,t;
-  x=0;
-  if(a>b)
-  {
-    t=a;
-    a=b;
-    b=t;
+  int gcd=1;
+  for(int i=2;i<=a && i<=b;i++){
+    if(a%i==0 && b%i==0){
+      gcd=i;
+    }
   }
-  if(b%a==0)
-    return a;
-{
-  for(i=1;i<a/2;i++){
-    (a%i==0 && b%i==0);
-    x=i;
-}    
-}
-  return x;
+  return gcd;
   }
 void output(int a,int b,int gcd){
   printf("%d is GCD of %d and %d\n",gcd,a,b);

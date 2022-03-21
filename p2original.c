@@ -9,7 +9,7 @@ int check_scalene(int a,int  b,int  c){
 int l;
 if(a==b && b==c)
 l=0;
-else if(a==b || b==c || a==c)
+else if(a==b || b==c )
 l=-1;
 else
 l=1;
@@ -17,15 +17,15 @@ l=1;
 }
 void output(int check_scalene){
 
-  if(check_scalene ==1){
-  printf("the given triangle is scalene\n");
+  if(check_scalene ==0){
+  printf("the given triangle is equilateral\n");
   }
 
   else if(check_scalene == -1){
   printf("the given triangle is isosceles\n");
   }
    else{
-  printf("the given triangle is equilateral\n");
+  printf("the given triangle is scalene\n");
    }  
 }
 int main(){
