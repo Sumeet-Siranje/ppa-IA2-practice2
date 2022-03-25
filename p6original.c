@@ -3,9 +3,9 @@ void input_string(char *a){
 printf("enter the string\n");
 scanf("%s",a);
 }
-int str_reverse(char *s){
+int str_reverse(char *a){
   int m=0;
-  for(int i=0;s[i]!='\0';i++){
+  for(int i=0;a[i]!='\0';i++){
     m=m+1;
     }
   return m;
