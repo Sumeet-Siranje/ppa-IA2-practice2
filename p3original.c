@@ -16,7 +16,7 @@ int composite(int n){
   return value;
 }
 void output(int n,int composite){
-  if(composite>2)
+  if(composite>1)
     printf("%d is composite\n",n);
   else
     printf("%d is prime\n",n);

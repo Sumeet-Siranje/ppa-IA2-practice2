@@ -8,20 +8,20 @@ int input_side(){
 int check_scalene(int a,int  b,int  c){
 int l;
 if(a==b && b==c)
-l=0;
-else if(a==b || b==c )
 l=-1;
+else if(a==b || b==c || c==a )
+l=0;
 else
 l=1;
  return l;
 }
 void output(int check_scalene){
 
-  if(check_scalene ==0){
+  if(check_scalene ==-1){
   printf("the given triangle is equilateral\n");
   }
 
-  else if(check_scalene == -1){
+  else if(check_scalene == 0){
   printf("the given triangle is isosceles\n");
   }
    else{
