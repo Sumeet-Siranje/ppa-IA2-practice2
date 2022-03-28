@@ -25,3 +25,6 @@ int sum_composite(int n,int a[n]){
   }
   return count;
 }
+void output(int sum){
+
+}

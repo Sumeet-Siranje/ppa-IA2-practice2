@@ -3,16 +3,16 @@ int input_side(){
   int x;
  printf("Enter sides of triangle:");
    scanf("%d",&x);
-   return 0;
+   return x;
 }
 int check_scalene(int a,int  b,int  c){
 int l;
 if(a==b && b==c)
-l=-1;
+  l=-1;
 else if(a==b || b==c || c==a )
-l=0;
+  l=0;
 else
-l=1;
+   l=1;
  return l;
 }
 void output(int check_scalene){
